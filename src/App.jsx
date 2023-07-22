@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { fetchDataFromApi } from "./utils/api";
-import { getApiConfiguration,getGenres } from "./store/homeslice";
+import { getApiConfiguration,getGenres } from "./store/homeSlice";
 import { useDispatch, useSelector } from "react-redux";
 import Header from "./component/header/Header"
 import Footer from "./component/footer/Footer"
